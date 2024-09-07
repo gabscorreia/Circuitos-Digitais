@@ -1,0 +1,42 @@
+$date
+	Fri Sep 06 09:58:26 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module ex1_teste $end
+$var wire 1 ! vermelho $end
+$var wire 1 " verde $end
+$var reg 1 # a $end
+$var reg 1 $ b $end
+$scope module uut $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var reg 1 " verde $end
+$var reg 1 ! vermelho $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0$
+0#
+0"
+1!
+$end
+#20
+1$
+#40
+0!
+1"
+0$
+1#
+#60
+1$
+#80
