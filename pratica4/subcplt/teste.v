@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-`include "smcplt.v"
+`include "subcplt.v"
 
 
 module teste;
@@ -9,7 +9,7 @@ wire s, cout;
 completo uut(a, b, cin, s, cout);
 
 initial begin
-     $dumpfile("smcplt.vcd");
+     $dumpfile("subcplt.vcd");
      $dumpvars(0, teste);
 
         a = 0;
